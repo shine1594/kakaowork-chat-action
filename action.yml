@@ -1,0 +1,21 @@
+name: "Kakaowork chat action"
+description: "kakaowork chat api wrapper"
+inputs:
+  app-key:
+    description: "APP key"
+    required: true
+  http-method:
+    description: "HTTP method"
+    required: true
+  api-name:
+    description: "API name"
+    required: true
+  request-body:
+    description: "HTTP Request body (JSON string)"
+    required: false
+  search-params:
+    description: "HTTP Request search parameters (JSON string)"
+    required: false
+runs:
+  using: "node12"
+  main: "index.js"

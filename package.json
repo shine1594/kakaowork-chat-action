@@ -1,0 +1,24 @@
+{
+  "name": "kakaowork-chat-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shine1594/kakaowork-chat-action.git"
+  },
+  "keywords": [],
+  "author": "dhl@marpple.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shine1594/kakaowork-chat-action/issues"
+  },
+  "homepage": "https://github.com/shine1594/kakaowork-chat-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.4.0",
+    "got": "^11.8.2"
+  }
+}
