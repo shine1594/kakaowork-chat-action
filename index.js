@@ -19,6 +19,8 @@ const parseJSONQuietly = (str) => {
     Authorization: `Bearer ${app_key}`,
     "Content-Type": "application/json; charset=UTF-8",
   };
+  console.log("input", core.getInput("request-body"));
+  console.log("json", json);
   const {
     body: { success, error, ...rest },
   } = await got[http_method](`https://api.kakaowork.com/v1/${api_name}`, {
